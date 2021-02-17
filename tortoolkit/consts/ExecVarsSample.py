@@ -12,7 +12,7 @@ except:
         BASE_URL_OF_BOT = "https://flixtuberobot.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 8090
+        SERVPORT = 8080
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-1001417161855, -1001193984550, -1001405615740, 1314948019]
