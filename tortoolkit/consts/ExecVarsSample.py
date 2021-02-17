@@ -6,16 +6,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "70dc6e3737f76e580c38e781dcfc586d"
+        API_ID = 2354487
+        BOT_TOKEN = "1662758717:AAH4M2hf60n-MZhadhdRQZkeDouqIPnfHbk"
+        BASE_URL_OF_BOT = "https://flixtuberobot.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
+        ALD_USR = [-1001417161855, -1001193984550, -1001405615740, 1314948019]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -62,7 +62,7 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 100
+        MAX_YTPLAYLIST_SIZE = 70
         
         # Max size of the torrent allowed
         MAX_TORRENT_SIZE = 300
