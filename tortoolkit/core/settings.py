@@ -215,7 +215,7 @@ async def handle_setting_callback(e):
 async def handle_settings(e,edit=False,msg="",submenu=None,session_id=None):
     # this function creates the menu
     # and now submenus too
-    await handle_time_cmd()
+#    await handle_time_cmd()
     if session_id is None:
         session_id = time.time()
         db = tordb
@@ -522,4 +522,4 @@ async def get_int_variable(var_name,menu,callback_name,session_id):
         [KeyboardButtonCallback(msg,f"settings {callback_name} {session_id}".encode("UTF-8"))]
     ) 
 
-# todo handle the list value 
+# todo handle the list value
