@@ -1,3 +1,4 @@
+import os
 try:
     from .ExecVars import ExecVars
 except:
@@ -20,7 +21,7 @@ except:
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1700000000
@@ -29,13 +30,13 @@ except:
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▰"
+        COMPLETED_STR = "▓"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "▱"
+        REMAINING_STR = "░"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = os.environ.get("DATABASE_URL")
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -61,10 +62,10 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 100
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 300
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
