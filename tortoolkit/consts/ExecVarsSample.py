@@ -4,7 +4,7 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = True
+        IS_VPS = False
         
         API_HASH = "70dc6e3737f76e580c38e781dcfc586d"
         API_ID = 2354487
@@ -78,7 +78,7 @@ except:
         RSTUFF = False
         FORCE_DOCS_USER = False
         FAST_UPLOAD = True
-        METAINFO_BOT = True
+        METAINFO_BOT = False
         EXPRESS_UPLOAD = True
         
 
