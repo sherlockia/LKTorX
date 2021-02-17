@@ -9,10 +9,10 @@ except:
         API_HASH = "70dc6e3737f76e580c38e781dcfc586d"
         API_ID = 2354487
         BOT_TOKEN = "1662758717:AAH4M2hf60n-MZhadhdRQZkeDouqIPnfHbk"
-        BASE_URL_OF_BOT = "https://flixtuberobot.herokuapp.com"
+        BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 8080
+        SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-1001417161855, -1001193984550, -1001405615740, 1314948019]
@@ -24,7 +24,7 @@ except:
         EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2147483648
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
