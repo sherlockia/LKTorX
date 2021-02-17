@@ -12,5 +12,5 @@ class Commands:
     ABOUT = "about@TorToolKitFlixBot"
     GETLOGS = "getlogs@TorToolKitFlixBot"
     SERVER = "server@TorToolKitFlixBot"
-    USERSETTINGS = "usetting@TorToolKitFlixBot"
+    USERSETTINGS = "usettings@TorToolKitFlixBot"
     INSTADL = "instadl@TorToolKitFlixBot"
