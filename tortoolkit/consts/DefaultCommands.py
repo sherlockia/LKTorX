@@ -12,5 +12,5 @@ class Commands:
     ABOUT = "about@FlixTubeRobot"
     GETLOGS = "getlogs@FlixTubeRobot"
     SERVER = "server@FlixTubeRobot"
-    USERSETTINGS = "usetting@FlixTubeRobot"
+    USERSETTINGS = "usettings@FlixTubeRobot"
     INSTADL = "instadl@FlixTubeRobot"
