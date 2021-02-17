@@ -24,10 +24,10 @@ async def get_client(host=None,port=None,uname=None,passw=None,retry=2) -> qba.T
     """Creats and returns a client to communicate with qBittorrent server. Max Retries 2
     """
     #getting the conn 
-    host = host if host is not None else "https://flixbots.herokuapp.com"
-    port = port if port is not None else "80"
-    uname = uname if uname is not None else "flix"
-    passw = passw if passw is not None else "bots"
+    host = host if host is not None else "localhost"
+    port = port if port is not None else "8090"
+    uname = uname if uname is not None else "admin"
+    passw = passw if passw is not None else "adminadmin"
     torlog.info(f"Trying to login in qBittorrent using creds {host} {port} {uname} {passw}")
 
     client = qba.Client(host=host,port=port,username=uname,password=passw)
