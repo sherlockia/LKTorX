@@ -12,7 +12,7 @@ except:
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 80
+        SERVPORT =
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [-1001417161855, -1001193984550, -1001405615740, 1314948019]
