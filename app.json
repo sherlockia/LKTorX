@@ -19,7 +19,7 @@
     },
     "BASE_URL_OF_BOT": {
       "description": "YOU ALREADY KNOW THIS :)",
-      "value": "",
+      "value": "https://yourappname.herokuapp.com",
       "required": false
     }
   },
