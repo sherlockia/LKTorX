@@ -78,7 +78,7 @@ except:
         RSTUFF = False
         FORCE_DOCS_USER = False
         FAST_UPLOAD = True
-        METAINFO_BOT = False
+        METAINFO_BOT = True
         EXPRESS_UPLOAD = True
         
 
