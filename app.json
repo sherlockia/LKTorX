@@ -1,0 +1,32 @@
+{
+  "name": "TorX Bot",
+  "description": "A Torrent Download Bot With Supports YTDL",
+  "logo": "https://telegra.ph/file/dd77fa98ab21cc9495905.jpg",
+  "keywords": [
+    "telegram",
+    "YTDL",
+    "bot",
+    "dc",
+    "LiquidX"
+  ],
+  "success_url": "https://telegram.me/nosource",
+  "website": "https://t.me/nosource",
+  "repository": "https://github.com/flakesgit/torx",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string. Get it from https://telegram.me/botfather",
+      "value": ""
+    },
+    "BASE_URL_OF_BOT": {
+      "description": "YOU ALREADY KNOW THIS :)",
+      "value": "https://yourappname.herokuapp.com",
+      "required": false
+    }
+  },
+  "stack": "container",
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
