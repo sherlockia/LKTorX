@@ -1,13 +1,13 @@
 {
-  "name": "Pastebin Bot",
-  "description": "A simple but advaced pastebin telegram bot made by Bots.DC",
-  "logo": "https://upload.wikimedia.org/wikipedia/en/3/35/Pastebin.com_logo.png",
+  "name": "TorX Bot",
+  "description": "A Torrent Download Bot With Supports YTDL",
+  "logo": "",
   "keywords": [
     "telegram",
-    "pastebin",
+    "YTDL",
     "bot",
     "dc",
-    "dcdunkan"
+    "LiquidX"
   ],
   "success_url": "https://telegram.me/nosource",
   "website": "https://t.me/nosource",
