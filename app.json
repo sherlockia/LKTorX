@@ -1,0 +1,32 @@
+{
+  "name": "Pastebin Bot",
+  "description": "A simple but advaced pastebin telegram bot made by Bots.DC",
+  "logo": "https://upload.wikimedia.org/wikipedia/en/3/35/Pastebin.com_logo.png",
+  "keywords": [
+    "telegram",
+    "pastebin",
+    "bot",
+    "dc",
+    "dcdunkan"
+  ],
+  "success_url": "https://telegram.me/nosource",
+  "website": "https://t.me/nosource",
+  "repository": "https://github.com/flakesgit/torx",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string. Get it from https://telegram.me/botfather",
+      "value": ""
+    },
+    "BASE_URL_OF_BOT": {
+      "description": "YOU ALREADY KNOW THIS :)",
+      "value": "",
+      "required": false
+    }
+  },
+  "stack": "container"
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ]
+}
