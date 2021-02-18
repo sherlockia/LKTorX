@@ -23,10 +23,10 @@
       "required": false
     }
   },
-  "stack": "container"
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
-  ]
+  "stack": "container",
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
 }
