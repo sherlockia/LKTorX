@@ -403,6 +403,7 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
     if user_msg is not None:
         force_docs = user_db.get_var("FORCE_DOCUMENTS",user_msg.sender_id)
 
+    file_ka_caption = os.path.basename(path)
     thonmsg = message
     message = await message.client.pyro.get_messages(message.chat_id, message.id)
     tout = get_val("EDIT_SLEEP_SECS")
@@ -447,6 +448,7 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
                     media=InputMediaVideo(
                         media=path,
                         thumb=thumb,
+                        caption=file_ka_caption,
                         parse_mode="html",
                         width=width,
                         height=height,
@@ -459,6 +461,7 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
                 sent_message = await message.reply_video(
                     video=path,
                     # quote=True,
+                    caption=file_ka_caption,
                     parse_mode="html",
                     duration=duration,
                     width=width,
@@ -469,7 +472,7 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
                     # reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        "trying to upload",
+                        "",
                         message_for_progress_display,
                         start_time,
                         tout,
@@ -522,7 +525,7 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
                     # reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        "trying to upload",
+                        "",
                         message_for_progress_display,
                         start_time,
                         tout,
@@ -547,6 +550,7 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
                     media=InputMediaDocument(
                         media=path,
                         thumb=thumb,
+                        caption=file_ka_caption,
                         parse_mode="html"
                     )
                     # quote=True,
@@ -557,11 +561,12 @@ async def upload_single_file(path, message, force_edit,database=None,thumb_image
                     # quote=True,
                     thumb=thumb,
                     parse_mode="html",
+                    caption=file_ka_caption,
                     disable_notification=True,
                     # reply_to_message_id=message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
-                        "trying to upload",
+                        "",
                         message_for_progress_display,
                         start_time,
                         tout,
