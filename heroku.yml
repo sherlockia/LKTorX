@@ -4,4 +4,4 @@ build:
     worker: Dockerfile
 run:
   web: gunicorn tortoolkit:start_server --worker-class aiohttp.GunicornWebWorker
-  worker: bash start.sh
+  worker: python3 -m tortoolkit
