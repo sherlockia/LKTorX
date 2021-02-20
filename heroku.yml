@@ -2,4 +2,5 @@ build:
   docker:
     worker: Dockerfile
 run:
-  web: bash start.sh
+  worker: bash start.sh
+  image: alive.sh
