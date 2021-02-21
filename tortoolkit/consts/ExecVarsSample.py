@@ -6,9 +6,9 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = "5b2a54725e42f321a99bfddfbdc042ca"
-        API_ID = 1663481
-        BOT_TOKEN = "1662639767:AAGG-paABgHeW5hIfUWlniX9V4RVFgW_zzM"
+        API_HASH = "31b12b40d16ad826d8a1098ae548041c"
+        API_ID = 1432028
+        BOT_TOKEN = "1680668059:AAHGGHkH0gUWzH_OfqRJykxmMDGeklFxHxQ"
         BASE_URL_OF_BOT = "https://elkayupload.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
