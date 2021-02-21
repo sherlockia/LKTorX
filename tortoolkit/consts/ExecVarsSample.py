@@ -9,7 +9,7 @@ except:
         API_HASH = "5b2a54725e42f321a99bfddfbdc042ca"
         API_ID = 1663481
         BOT_TOKEN = "1662639767:AAGG-paABgHeW5hIfUWlniX9V4RVFgW_zzM"
-        BASE_URL_OF_BOT = ""
+        BASE_URL_OF_BOT = "https://elkayupload.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
