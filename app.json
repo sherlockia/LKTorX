@@ -1,0 +1,10 @@
+{
+  "name": "XTor Bot",
+  "description": "A Torrent Download Bot With Supports YTDL",
+  "stack": "container",
+    "addons": [
+      {
+        "plan": "heroku-postgresql"
+      }
+    ]
+}
