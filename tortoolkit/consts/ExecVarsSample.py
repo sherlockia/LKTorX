@@ -6,22 +6,22 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = "70dc6e3737f76e580c38e781dcfc586d"
-        API_ID = 2354487
-        BOT_TOKEN = "1662758717:AAH4M2hf60n-MZhadhdRQZkeDouqIPnfHbk"
+        API_HASH = "5b2a54725e42f321a99bfddfbdc042ca"
+        API_ID = 1663481
+        BOT_TOKEN = "1662639767:AAGG-paABgHeW5hIfUWlniX9V4RVFgW_zzM"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001417161855, -1001405615740, -1001266556676, 1314948019]
+        ALD_USR = [327413172,-1001332028638]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 15
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 2147483648
