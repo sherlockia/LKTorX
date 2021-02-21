@@ -6,16 +6,16 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = "31b12b40d16ad826d8a1098ae548041c"
-        API_ID = 1432028
-        BOT_TOKEN = "1680668059:AAHGGHkH0gUWzH_OfqRJykxmMDGeklFxHxQ"
-        BASE_URL_OF_BOT = "https://elkayupload.herokuapp.com"
+        API_HASH = "9e9eb44cd021de1c77e7ab820da03f5e"
+        API_ID = 1902664
+        BOT_TOKEN = "1521672931:AAE44LZWRIBJrNlrJ61B4J36DXgcMBNmL3s"
+        BASE_URL_OF_BOT = "https://elkayleech.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [327413172, -498275457]
+        ALD_USR = [327413172]
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
