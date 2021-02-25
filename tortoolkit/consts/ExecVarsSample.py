@@ -6,9 +6,9 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = "9e9eb44cd021de1c77e7ab820da03f5e"
-        API_ID = 1902664
-        BOT_TOKEN = "1521672931:AAE44LZWRIBJrNlrJ61B4J36DXgcMBNmL3s"
+        API_HASH = "3f14c6c573776352ff8f52db43b3dfed"
+        API_ID = 3120201
+        BOT_TOKEN = "1675104350:AAE50dcDZX19ukE6qyqCsPJhRuBHAJTzNao"
         BASE_URL_OF_BOT = "https://elkayleech.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
